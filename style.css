@@ -27,7 +27,7 @@ main {
     width: max-content;
     margin-bottom: 10px;
     border-radius: 20px;
-    border: 2px dashed gray;
+    border: 1px dashed whitesmoke;
 }
 
 img {
@@ -108,7 +108,7 @@ img {
     border-radius: 20px;
     font-size: 1rem;
     color: whitesmoke;
-    border: 2px dashed gray;
+    border: 1px dashed whitesmoke;
 }
 
 .description > span {
@@ -155,14 +155,14 @@ img {
 #searchBar {
     display: block;
     width: 100%;
-    height: 50px;
+    height: 60px;
     padding: 10px;
     margin: 0 auto;
     font-size: 17px;
     border-radius: 15px;
     outline: none;
     color: whitesmoke;
-    border: 2px dashed gray;
+    border: 1px dashed whitesmoke;
     /* box-shadow: inset 5px 5px 5px #FF7A00; */
     
     background-image: url('./img/location.png');

@@ -1,0 +1,28 @@
+@keyframes glitch {
+    0% {
+        transform: translate(0);
+    }
+    25% {
+        transform: translate(-5px, 5px);
+    }
+    50% {
+        transform: translate(5px, -5px);
+    }
+    75% {
+        transform: translate(-5px, 5px);
+    }
+    100% {
+        transform: translate(0);
+    }
+}
+
+#searchBar:focus {
+    box-shadow: -2px 2px lightgrey;
+    transition: 0.5s ease-in-out;
+}
+
+.main *:hover, .description *:hover{
+    transition: 0.3s ease-in;
+    border-color: black;
+    animation: glitch 0.4s;
+}
